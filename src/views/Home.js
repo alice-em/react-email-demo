@@ -73,11 +73,18 @@ class Home extends Component {
   render() {
     const {active} = this.state;
     return (
-      <div style={styles.flex}>
-        <div className='sidebar' style={styles.duo}>
+      <div className='flex' style={styles.flex}>
+        <div
+          className='sidebar flex'
+          style={{
+            flex: '2 1 0 %',
+            background: '#eee',
+            padding: 15,
+          }}
+        >
           <Sidebar />
         </div>
-        <div className='main' style={styles.duo}>
+        <div className='main flex' style={styles.duo}>
           {this.renderEmailList()}
         </div>
         <div style={styles.container}>

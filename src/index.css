@@ -1,6 +1,15 @@
 body {
   font-family: sans-serif;
   margin: 15px;
-  /* max-width: 600px; */
   padding: 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .flex {
+    display: block !important;
+  }
 }

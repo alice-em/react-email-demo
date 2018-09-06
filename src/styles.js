@@ -7,7 +7,7 @@ export default {
     background: 'rgba(255,255,255,0.8)'
   },
   duo: {
-    display: 'flex',
+    // display: 'flex',
     flex: 2
   },
   flex: {
